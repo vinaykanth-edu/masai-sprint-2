@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(136, 204, 116); */
+}
+#table-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 400px;
+}
+#top-box{
+    border: 5px solid rgb(114, 122, 230);
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+}
+#middle-box1, #middle-box2{
+    border: 2px solid rgb(114, 122, 230);
+    padding: 10px;
+    margin-left: 400px;
+    text-align: center;
+    width: 500px;
+}
+#bottom-box{
+    display: grid;
+    grid-gap: 10px;
+    border: 2px solid rgb(114, 122, 230);
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+#structure{
+    text-align: center;
+}
