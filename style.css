@@ -33,3 +33,16 @@
 #structure{
     text-align: center;
 }
+
+table{
+    border: 1px solid black;
+    margin: 1px solid black;
+}
+/* #display{
+    
+
+} */
+table{
+    margin-left: 300px;
+    margin-right: 100px;
+}

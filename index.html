@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="script.js"></script>
-    </head>
 
-    <body>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-        <div id="top-box">
-            <h1 id="h1">Available Money:</h1>
-            
+</head>
+
+<body>
+
+    <div id="top-box">
+        <h1 id="h1">Available Money:</h1>
+
+    </div>
+    <div id="middle-box1">
+        <h2 id="income">Income:</h2>
+    </div>
+    <div id="middle-box2">
+
+        <h2 id="expense">Expenses:</h2>
+    </div>
+    <div id="bottom-box">
+        <div>
+            <label>Enter your earnings:<label>
+                    <input type="text" id="inc" placeholder="description">
+                    <input type="number" id="add" placeholder="value">
+                    <button >Submit</button>
         </div>
-        <div id="middle-box1">
-            <h2 id="income">Income:</h2>
+        <div>
+            <label>Enter your expenses:<label>
+                    <input type="text" id="exp" placeholder="description">
+                    <input type="number" id="sub" placeholder="value">
+                    <button>Submit</button>
         </div>
-        <div id="middle-box2">
-            
-            <h2 id="expense">Expenses:</h2>
-        </div>
-        <div id="bottom-box">
-            <div>
-               <label>Enter your earnings:<label>
-               <input type="text" id="inc" placeholder="description">
-               <input type="number" id="add"  placeholder="value">
-               <button onclick="add()">Submit</button>
-            </div>
-            <div>
-                <label>Enter your expenses:<label>
-                <input type="text" id="exp" placeholder="description">
-                <input type="number" id="sub"  placeholder="value">
-                <button onclick="sub()">Submit</button>
-             </div>
-        </div>
-        
-        <div id="table-grid">
+    </div>
+    <div id="display"></div>
+
+    <!-- <div id="table-grid">
            <div>
                <table border="1" id="inctab">   
                  <tr>
                    <th>Income</th>
                    <th>Amount</th>
-                 </tr>
-            
-                 <tr>
-                   <td>AAAAAA</td>
-                
-                   <td>10</td>
                  </tr>
                </table>   
           </div>
@@ -56,13 +52,11 @@
                     <th>Amount</th>
                 </tr>
                 
-                <tr>
-                    <td>AAAAAA</td>  
-                    <td>10</td>
-                </tr>
+                
             </table>    
-          </div>
-      </div>
-    </body>
+          </div> -->
+    <!-- </div> -->
+    <script src="script.js"></script>
+</body>
 
 </html>
